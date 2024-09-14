@@ -1,0 +1,904 @@
+*{
+    margin: 0%;
+    padding:0;
+    box-sizing: border-box;
+}
+i{
+    color: rgb(70, 70, 192);;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+h2{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 30;
+}
+.ContainerHome p{
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color: #899;
+}
+.ContainerHome a {
+    color: rgb(70, 70, 192);;
+    text-transform: capitalize;
+   
+}
+.underline {
+    border-bottom: 3px solid rgb(70, 70, 192);; 
+    padding-bottom: 2px;
+}
+
+body{
+    height: 4000px;
+}
+.Home{
+    padding:100PX 0px;
+}
+.header-Home{
+    text-align: center;
+}
+.header-Home .title-home{
+    margin-bottom: 13px;
+    margin-top: 20px;
+
+}
+.header-Home .dash{
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(70, 70, 192);;
+    margin:0px auto;
+}
+ a{ 
+    text-decoration: none;
+    color: #fff;
+}
+.btn1-home{
+    text-decoration: underline 4px rgb(70, 70, 192);;
+   
+    
+}
+.header{
+    width: 100% ;
+    height: 65;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+}
+.img1-heads{
+    width:140px;
+    height: 65;;
+    margin-left:200px;
+    float: left;
+}
+.ul1-heads{
+    list-style-type: none;
+    float: left;
+    margin-left: 20%;
+
+}
+.ul1-heads li a:after {
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: rgb(70, 70, 192);;
+    transition: 0.5s;
+}
+.ul1-heads li a:hover:after{
+       width: 100%;
+   }
+
+.ul1-heads li{
+    padding:11px 0px;
+    font-size: 25px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 25px;
+}
+.parent{
+    position: relative;
+}
+    .div1-sef{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/OIP.jpeg);
+        background-size: cover;
+        
+    
+    }
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(42, 31, 82,0.7);
+    }
+    .div1-h{
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 90%;
+        margin-bottom: 40%;
+
+    }
+    .title1-Hero{
+        font-size: 40;
+    }
+    .P1-Hero{
+        font-size: 25;
+    }
+    .btn1-Hero{
+       width: 110;
+       padding: 7px 0px;
+       border-radius: 5px;
+       border: 0;
+      font-size: 18px;
+      text-transform: capitalize;
+      font-style:bold;
+    }
+    .btn:hover{
+        opacity: 0.6;
+    }
+    .btn2-hero{
+     background-color:rgb(22, 22, 48);;
+     color: #fff;
+    }
+    /* ////////////////////////////////////////////////////////////// */
+    .title-home{
+        font-size: 50px;
+        margin-top: 145px;
+        text-align: center;
+    }
+
+    .ContainerHome{
+        width: 80%;
+        margin: auto;
+        margin-top: 66px;
+    }
+    .home-parent{
+    margin: auto;
+    text-align: center;
+    height: 500;
+    font-size: 13px;
+   
+    }
+    
+   .ContainerHome-Right{
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgb(70, 70, 192);;
+    padding: 30px 15px;
+    position: relative;
+}
+.ContainerHome-Center{
+    width: 30%;
+    height: 500px;;
+    float: left;
+    text-align: center;
+    border: 1px solid rgb(70, 70, 192);;
+    padding: 35px 15px;
+    margin: 0px 35px 0px 40px;
+    position: relative;
+
+}
+.ContainerHome-Left{
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    border: 1px solid rgb(70, 70, 192);;
+    padding: 30px 15px;
+   position: relative;
+}
+
+.ContainerHome-Right::after{
+    position: absolute;
+    content:"";
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color:black;
+    opacity:0.5;
+}
+.ContainerHome-Right:hover::after{
+    width:100%;
+    height:100%;
+    opacity:0,5;
+    transition:1s;
+
+}
+.ContainerHome-Left::after{
+    position: absolute;
+    content:"";
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity:0.5;
+    transition: #fff 1s;
+}
+.ContainerHome-Left:hover::after{
+    width:100%;
+    height:100%;
+    opacity:0,5;
+    transition:1s;
+}
+.ContainerHome-Center::after{
+    position: absolute;
+    content:"";
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity:0.5;
+}
+.ContainerHome-Center:hover::after{
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    transition:1s;
+}
+
+/* ///////////////////////////////////// */
+
+.About{
+    width: 100%;
+    height: 800px;
+
+}
+.dash-about{
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color: #fff;
+    margin:8px auto;
+}
+
+.ContainerAbout{
+    width: 70%;
+    margin: auto; 
+}
+
+.header-About{
+    padding-top:5px;
+    text-align: center;
+
+}
+.title-About{
+    font-size: 50px;
+    margin-top: 125px;
+    text-align: center;
+    color: #fff;
+}
+.about{
+    background-color:rgb(37, 37, 117);;
+}
+.Container-about{
+    width:80%;
+    margin: auto;
+}
+.about-parent{
+    overflow: auto;
+}
+.about-item{
+float: left;
+width:30%;
+text-align: center;
+padding: 18;
+margin-top: 30;
+position: relative;
+}
+.Center{
+  margin: 0 5%;
+  margin-top: 30;
+}
+.about-overlay {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease, visibility 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8); 
+    }
+    
+    .about-item:hover .about-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+.about-overlay a{
+    display: inline-block;
+    width:30px;
+    height:40px;
+}
+.about-overlay .about-info-title, .about-info-paragraph,a{
+    margin-top: 25px;
+    color: #fff;
+}
+/* ///////////////////////////////////////////////////////////// */
+.services{
+    width: 100%;
+    height: 800px;
+}
+.dash-services{
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color: rgb(70, 70, 192);;
+    margin:8px auto;
+    
+}
+.title-services{
+    font-size: 50px;
+    margin-top: 125px;
+    text-align: center;
+}
+.about-services{
+    overflow: hidden;
+}
+
+.Containerservices{
+    width: 70%;
+    margin: auto; 
+}
+
+.header-services{
+    text-align: center;
+
+}
+.services-item{
+    float: left;
+    width:30%;
+    height: 150;
+    text-align: center;
+    padding: 18;
+    margin-top: 70px;
+    position: relative;
+    border: 2px solid rgb(70, 70, 192);;
+    
+    }
+.Centert{
+      margin: 0 5%;
+      margin-top: 70px;
+    }
+    .services-item:after{
+        opacity: 0;
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 0%;
+        top:0;
+        left: 0;
+        background-color: black;
+        transition: 1s;
+    }
+    .services-item:hover:after{
+        width: 100%;
+        height: 100%;
+        opacity:0.5;
+      
+    }
+    .services-item:hover h2{
+        color:rgb(70, 70, 192);;
+       
+    }
+    .services-item:hover p {
+        color: rgb(70, 70, 192);;
+       
+    }
+    /* /////////////////////////////////////////////////// */
+.team {
+    height:800px;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+.containerteam {
+    width: 90%;
+    margin: 100 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-team {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.right-team h2 {
+    font-size: 35;
+    position: relative;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.right-team .dash-team {
+    display: block;
+    width: 100;
+    height: 4px;
+    background-color: rgb(70, 70, 192);;
+    margin:0 0 8 0;
+}
+.i-p-team { 
+       margin-top: 40px;
+       font-size: 20;
+       width: 80%;
+}
+.inn{
+    margin-top: 20px;
+}
+.info-teamright .inn p i {
+    margin-right: 10px;
+    color: rgb(70, 70, 192);;
+}
+.left-team {
+    flex: 1;
+    text-align: center;
+}
+.imgteam{
+background-color: #fff;
+width: 600;
+}
+.left-team img {
+    width:550;
+    height: 500px;
+}
+.ul-team {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul-team .liteam{
+    background-color: rgb(70, 70, 192);;
+}
+.ul-team li {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.ul-team li:hover{
+    background-color:rgb(70, 70, 192);;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.num{
+    padding: 50px 0;
+    background-image:url(../images/PHONES.jpeg);
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed
+}
+.Containernum{
+    width: 80%;
+    margin: auto;
+    
+}
+.PARENTNUM{
+    padding-left:  20px;
+    overflow: hidden;
+    padding: 60;
+    margin-left: 70;
+}
+.num-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.num-item{
+    
+    float: left;
+    width:20%;
+    text-align: center;
+    padding-left: 60;
+    margin-top: 70px;
+    position: relative;
+}
+.num-item i{
+    font-size: 40;
+}
+.num-item h2{
+    font-weight: bold;
+    font-size: 25;
+    color: #fff;
+}
+.num-item p{
+    color: #fff;
+}
+/* //////////////////////////////// */
+.dash-prices{
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color: rgb(70, 70, 192);;
+    margin:8px auto;
+    
+}
+.title-prices{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.prices{
+   height: 800px;
+   padding: 120 0;
+}
+.Containerprices{
+    width: 80%;
+    margin: auto;
+    
+}
+.prices-parent{
+    overflow: auto;
+   margin-top: 70px;
+}
+.prices-item{
+    position: relative;
+    float: left;
+    width: 30%;
+    padding: 10px 15px;
+    border: 1px solid rgb(70, 70, 192);;
+    text-align: center;
+    margin-top:20px;
+    height: 420;
+}
+.Center-prices9{
+    margin: 0 5%;
+    margin-top: 20px;
+  }
+
+.prices-item .price-item{
+    width: 140px;
+    height: 130px;
+    padding: 30 0;
+    margin: 20px auto;
+    border: 2px solid rgb(70, 70, 192);;
+    border-radius: 50%;
+}
+.prices-item .price-item h3,span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.prices-item ul{
+    list-style: none;
+}
+.prices-item ul{
+    color: black;
+    line-height:1.6
+}
+.prices-item button{
+   border-radius: 7px;
+    background-color: rgb(70, 70, 192);
+    color: #fff;
+    margin: auto;
+    padding: 8px;
+    width: 120px;
+    margin-top: 25;
+}
+.pricee2{
+    margin-top: 20px;
+}
+.prices-item::after{
+    opacity: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top:0;
+    left :0;
+    background-color: black;
+    transition: 0.5s;
+    }
+    .prices-item:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+      
+    }
+    .prices-item:hover .pricee2 .price-item span{
+    color:rgb(70, 70, 192);;
+       
+    }
+    .prices-item:hover .pricee2 {
+    color: rgb(70, 70, 192);;
+    }
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .devolper{
+    position: relative;
+    background-image: url(../images/phones2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 320px;
+    }
+    .devolper-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    }
+    .containerdevolper{
+    width: 80%;
+    margin: auto;
+    }
+    .devolper-parent{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    }
+    .devolper-item{
+    float: left;
+    width: 50%;
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 55px;
+    margin-bottom: 110px;
+    }
+    .devolper-1img{
+    padding: 90px 20px 0 150px;
+    position: relative;
+    line-height: 1.1;
+    margin-bottom: 40;
+    }
+    .devolper-1img img {
+        position: absolute;
+        border-radius: 50%;
+        top: 85;
+        left: 60;
+    }
+    .devolper-1img  h3{
+        font-size: 40;
+    }
+    .devolper-1img  span {
+        color: rgb(70, 70, 192);
+        font-size: 22;
+    }
+    .devolper-info {
+        text-transform: capitalize;
+        margin-left: 80px;
+        line-height:0
+    }
+    /* //////////////////////////////////////////////////////////////////////////// */
+    .team-work{
+        height: 700px;
+        padding: 100 0PX;
+    }
+    .dash-teamwork{
+        display: block;
+        width: 100px;
+        height: 4px;
+        background-color: rgb(88, 88, 224);
+        margin:8px auto;
+        
+    }
+    .team-worktitle{
+        font-size: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .containerteamwork{
+        width:80%;
+        margin: auto;
+    }
+    .team-workparent{
+        overflow: auto;
+        padding-left: 50;
+        padding: 40 0PX;
+    }
+    .team-workitem{
+    float: left;
+    width: 30%;
+    background-color: rgb(240, 239, 239);
+    padding: 30 15;
+    text-align: center;
+    position: relative;
+    }
+    .Centerteam-work{
+        margin: 0 5%;
+    }
+    .team-work-img{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    }
+    .team-work-img img{
+        width: 80%;
+}
+    .team-work-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(88, 88, 224, 0.5);
+        visibility: hidden;
+
+}
+.team-work-overlay a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(88, 88, 224) ;
+    margin:0;
+    padding: 0;
+    margin-left:  auto;
+}
+.team-work-overlay a i {
+    line-height: 40PX;
+    color: #fff;
+}
+.team-work-info{
+    color: black;
+    padding: 13px 0;
+    text-transform: capitalize;
+}
+.team-workitem:hover .team-work-overlay {
+    visibility: visible;
+}
+.team-workitem::after{
+    opacity: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top:0;
+    right :0;
+    background-color: black;
+    transition: 0.5s;
+}
+.team-workitem:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+.team-workitem:hover .team-work-info .team-work-info-title{
+    color:rgb(68, 68, 217);
+    font-size: 40PX;
+}
+.team-workitem:hover .team-work-info .team-work-info-text{
+   color: #23265e;
+   font-weight: bold;
+   font-size: 20;
+}
+/* ////////////////////////////////////////////////// */
+.news{
+    height: 900;
+    padding: 100 0PX;
+    background-color: #f7f7f7ce
+}
+.dash-news{
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(88, 88, 224);
+    margin:8px auto;
+    
+}
+.news-title{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.containernews {
+    width: 80%;
+    margin: auto;
+}
+.news-parent{
+    overflow: auto;
+    height:600;
+    padding: 20px 0;
+}
+.newsitem {
+    float: left;
+    width: 30%;
+    padding: 60px 15px;
+    text-align: center;
+    position: relative;
+    /* border:1px solid rgb(88, 88, 224) ; */
+    
+}
+.Centernewss {
+    margin: 0 5%;
+    
+}
+.newsitem-img {
+    width: 100%;
+} 
+.newsitem-img img{
+    border-radius: 7px;
+}
+
+.news-list {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.news-list li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.news-pa{
+    font-weight: bold;
+}
+.news-titlee{
+    font-weight: bold;
+    margin: 20px 0;
+    margin-bottom: 25px;
+}
+.news-newstext {
+    color: black;
+    margin-bottom: 15px;
+   
+}
+.news-list li i{
+   color:rgb(88, 88, 224) ;
+}
+.newsitem .news-pa a{
+    color: rgb(88, 88, 224);
+    
+}
+.newsitem::after{
+    opacity: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    top:0;
+    right :0;
+    background-color: black;
+    transition: 0.5s;
+}
+.newsitem:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+.final {
+    background-color: rgb(37, 37, 117);
+    text-align: center;
+    height: 305px;
+    padding: 50px 0;
+}
+.finallinks li {
+    display: inline-block;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+}
+.finallinks{
+    list-style: none;
+    margin: 20px 0;
+}
+.finallinks li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    padding-top: 9px;
+    padding-right: 15px;
+    margin: 0 8px;
+}
